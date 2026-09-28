@@ -10,6 +10,7 @@ import {
   LayoutDashboard,
   BookOpen,
   Home,
+  CalendarDays,
   Moon,
   Sun,
   Menu,
@@ -18,7 +19,8 @@ import {
 import { useState, useEffect } from "react";
 
 const NAV_ITEMS = [
-  { href: "/", label: "Home", icon: Home },
+  { href: "/", label: "Event", icon: CalendarDays },
+  { href: "/home", label: "Governance Home", icon: Home },
   { href: "/catalog", label: "Dataset Catalog", icon: Database },
   { href: "/scanner", label: "Governance Scanner", icon: ScanSearch },
   { href: "/policies", label: "Policy Generator", icon: ShieldCheck },
