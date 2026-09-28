@@ -36,6 +36,12 @@ yarn-error.log*
 # vercel
 .vercel
 
+# snowflake
+/output
+app.yml
+snowflake.yml
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+snowflake.log

@@ -1,0 +1,3827 @@
+[
+  {
+    "title": "Overture Maps - Addresses",
+    "globalName": "GZT0Z4CM1E9NQ",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0Z4CM1E9NQ",
+    "category": "demographics",
+    "subcategory": "Address Data",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": true,
+    "recommendationNotes": "Global address data from Overture Maps - street addresses, postal codes, coordinates for address classification."
+  },
+  {
+    "title": "US Census Data & Demographic Insights - Free Dataset",
+    "globalName": "GZTSZ10H0398",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ10H0398",
+    "category": "demographics",
+    "subcategory": "Demographics",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": true,
+    "recommendationNotes": "US Census demographics - age, gender, ethnicity, income by geography. Perfect quasi-identifier showcase."
+  },
+  {
+    "title": "Affine NPPES Provider Data",
+    "globalName": "GZT1Z2XIVUI",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT1Z2XIVUI",
+    "category": "healthcare",
+    "subcategory": "Provider Data",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": true,
+    "recommendationNotes": "National provider (NPI) data with names, addresses, specialties - real healthcare identifiers."
+  },
+  {
+    "title": "Hospital Claims & Remits Data",
+    "globalName": "GZ1MJZ4HFKQ",
+    "url": "https://app.snowflake.com/marketplace/listing/GZ1MJZ4HFKQ",
+    "category": "healthcare",
+    "subcategory": "Hospital Data",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": true,
+    "recommendationNotes": "Hospital claims data with procedure codes and billing - ideal for HIPAA governance demonstrations."
+  },
+  {
+    "title": "Kipi Health Data Utils - FHIR Synthetic Data",
+    "globalName": "GZSTZ4CLE1N7D",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSTZ4CLE1N7D",
+    "category": "healthcare",
+    "subcategory": "Health Data",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": true,
+    "recommendationNotes": "Synthetic FHIR healthcare data - safe to demo with realistic PII patterns that CLASSIFY will detect."
+  },
+  {
+    "title": "Consumer Insights Database: Credit and Debit Card Transactions",
+    "globalName": "GZSTZ708I27",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSTZ708I27",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": true,
+    "recommendationNotes": "Credit/debit card transaction data - demonstrates financial data classification and column-level security."
+  },
+  {
+    "title": "L2 National U.S. Consumers (Sample 10k/249M)",
+    "globalName": "GZSNZ76894",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSNZ76894",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": true,
+    "recommendationNotes": "10k sample from 249M US consumer records - rich in PII fields for classification and masking demos."
+  },
+  {
+    "title": "SMS Consumer Demographics Masterfile (sample)",
+    "globalName": "GZT0ZU1ICFA",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZU1ICFA",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": true,
+    "recommendationNotes": "Consumer demographics masterfile - names, addresses, demographic attributes for full classification demo."
+  },
+  {
+    "title": "Sample Personas with IP Addresses / Hashed Email Addresses",
+    "globalName": "GZSOZ2EMI",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSOZ2EMI",
+    "category": "pii",
+    "subcategory": "Persona Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": true,
+    "recommendationNotes": "Persona data with IP addresses and hashed emails - network identifier and PII classification demo."
+  },
+  {
+    "title": "US Consumer Credit Trends (Demo/Sample)",
+    "globalName": "GZT0ZOSU8WE",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZOSU8WE",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": true,
+    "recommendationNotes": "Consumer credit trends with scores and balances - demonstrates sensitive financial data protection."
+  },
+  {
+    "title": "Acorn - Geodemographic Segmentation in the UK",
+    "globalName": "GZSVZ1K7VF",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSVZ1K7VF",
+    "category": "demographics",
+    "subcategory": "Demographics",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Address Spine \u2013 UK address level property information - Sample Data",
+    "globalName": "GZSVZ1K7UQ",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSVZ1K7UQ",
+    "category": "demographics",
+    "subcategory": "Address Data",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Confluence - Evaluated Fixed Income Pricing - Nation Sample",
+    "globalName": "GZTSZDPEOQ4",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZDPEOQ4",
+    "category": "demographics",
+    "subcategory": "Income",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Demographic Audiences",
+    "globalName": "GZTSZCI0HGX",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZCI0HGX",
+    "category": "demographics",
+    "subcategory": "Demographics",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Demographics - Household \u2013 SAMPLE",
+    "globalName": "GZT0ZLVIV6J",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZLVIV6J",
+    "category": "demographics",
+    "subcategory": "Demographics",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Demographics - Individual - SAMPLE",
+    "globalName": "GZT0ZLVIV89",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZLVIV89",
+    "category": "demographics",
+    "subcategory": "Demographics",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Demographics Data Bundle",
+    "globalName": "GZTYZAPS3FT",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTYZAPS3FT",
+    "category": "demographics",
+    "subcategory": "Demographics",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "GapMaps Premium Demographics Data - India",
+    "globalName": "GZSUZ1LL0X7I",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSUZ1LL0X7I",
+    "category": "demographics",
+    "subcategory": "Demographics",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "GapMaps Premium Demographics Data - Indonesia",
+    "globalName": "GZSUZ7PTJG",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSUZ7PTJG",
+    "category": "demographics",
+    "subcategory": "Demographics",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "GapMaps Premium Demographics Data - Malaysia",
+    "globalName": "GZSUZ1LL0XF6",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSUZ1LL0XF6",
+    "category": "demographics",
+    "subcategory": "Demographics",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "GapMaps Premium Demographics Data - Philippines",
+    "globalName": "GZSUZ1LL0X7E",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSUZ1LL0X7E",
+    "category": "demographics",
+    "subcategory": "Demographics",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "GapMaps Premium Demographics Data - Singapore",
+    "globalName": "GZSUZ7PTJK",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSUZ7PTJK",
+    "category": "demographics",
+    "subcategory": "Demographics",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Global Address Database",
+    "globalName": "GZSTZK37HYP",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSTZK37HYP",
+    "category": "demographics",
+    "subcategory": "Address Data",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "HRogWageNow-sample",
+    "globalName": "GZT2Z6DK9K",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT2Z6DK9K",
+    "category": "demographics",
+    "subcategory": "Compensation",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Household Acorn \u2013 geodemographic segmentation at household level SAMPLE DATA",
+    "globalName": "GZSVZ1K7UU",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSVZ1K7UU",
+    "category": "demographics",
+    "subcategory": "Demographics",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Housing Characteristics (Demo/Sample)",
+    "globalName": "GZT0ZOSU8VH",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZOSU8VH",
+    "category": "demographics",
+    "subcategory": "Housing",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Housing and Community Development Finance (HCDF)",
+    "globalName": "GZTSZ1Q962G",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ1Q962G",
+    "category": "demographics",
+    "subcategory": "Housing",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Income360\u00ae (Demo/Sample)",
+    "globalName": "GZT0ZOSU8TN",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZOSU8TN",
+    "category": "demographics",
+    "subcategory": "Income",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "PayCheck \u2013 UK household income estimates at postcode level - SAMPLE data",
+    "globalName": "GZSVZ1K7UA",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSVZ1K7UA",
+    "category": "demographics",
+    "subcategory": "Income",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "SuperDemographics",
+    "globalName": "GZTSZ1GM68L",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ1GM68L",
+    "category": "demographics",
+    "subcategory": "Demographics",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "US Population Forecast Age & Gender",
+    "globalName": "GZTSZ10H038N",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ10H038N",
+    "category": "demographics",
+    "subcategory": "Population",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "\u30e1\u30c3\u30b7\u30e5\u6ede\u5728\u4eba\u53e3\u30b5\u30f3\u30d7\u30eb / Dynamic population samples ",
+    "globalName": "GZT2Z6ORAD",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT2Z6ORAD",
+    "category": "demographics",
+    "subcategory": "Population",
+    "governanceRelevance": {
+      "summary": "Demographic and location data with quasi-identifiers perfect for demonstrating re-identification risk assessment and masking.",
+      "expectedClassifications": {
+        "identifiers": [
+          "STREET_ADDRESS"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "ETHNICITY",
+          "MARITAL_STATUS",
+          "POSTAL_CODE",
+          "LATITUDE",
+          "LONGITUDE"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": " Credit/Debit Transactions: Fast Food and Quick Service Restaurants",
+    "globalName": "GZSTZ708I0X",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSTZ708I0X",
+    "category": "financial",
+    "subcategory": "Consumer Credit",
+    "governanceRelevance": {
+      "summary": "Financial data with account/transaction fields ideal for demonstrating sensitive data tagging and column-level masking policies.",
+      "expectedClassifications": {
+        "identifiers": [
+          "BANK_ACCOUNT",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "POSTAL_CODE",
+          "CITY"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "PCI-DSS",
+        "SOX",
+        "GLBA"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": " Financial Durability Measures (Demo/Sample)",
+    "globalName": "GZT0Z56K4948D",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0Z56K4948D",
+    "category": "financial",
+    "subcategory": "Financial Services",
+    "governanceRelevance": {
+      "summary": "Financial data with account/transaction fields ideal for demonstrating sensitive data tagging and column-level masking policies.",
+      "expectedClassifications": {
+        "identifiers": [
+          "BANK_ACCOUNT",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "POSTAL_CODE",
+          "CITY"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "PCI-DSS",
+        "SOX",
+        "GLBA"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Banking Analytics Bundle",
+    "globalName": "GZTYZAPS3FP",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTYZAPS3FP",
+    "category": "financial",
+    "subcategory": "Banking",
+    "governanceRelevance": {
+      "summary": "Financial data with account/transaction fields ideal for demonstrating sensitive data tagging and column-level masking policies.",
+      "expectedClassifications": {
+        "identifiers": [
+          "BANK_ACCOUNT",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "POSTAL_CODE",
+          "CITY"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "PCI-DSS",
+        "SOX",
+        "GLBA"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "CreditStyles Pro\u00ae (Demo/Sample)",
+    "globalName": "GZT0ZOSU8WM",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZOSU8WM",
+    "category": "financial",
+    "subcategory": "Consumer Credit",
+    "governanceRelevance": {
+      "summary": "Financial data with account/transaction fields ideal for demonstrating sensitive data tagging and column-level masking policies.",
+      "expectedClassifications": {
+        "identifiers": [
+          "BANK_ACCOUNT",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "POSTAL_CODE",
+          "CITY"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "PCI-DSS",
+        "SOX",
+        "GLBA"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Economist Enterprise (EIU) Financial Risk",
+    "globalName": "GZTDZPG1WE",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTDZPG1WE",
+    "category": "financial",
+    "subcategory": "Financial Services",
+    "governanceRelevance": {
+      "summary": "Financial data with account/transaction fields ideal for demonstrating sensitive data tagging and column-level masking policies.",
+      "expectedClassifications": {
+        "identifiers": [
+          "BANK_ACCOUNT",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "POSTAL_CODE",
+          "CITY"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "PCI-DSS",
+        "SOX",
+        "GLBA"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Finance & Insurance Audiences ",
+    "globalName": "GZTSZCI0HH6",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZCI0HH6",
+    "category": "financial",
+    "subcategory": "Insurance",
+    "governanceRelevance": {
+      "summary": "Financial data with account/transaction fields ideal for demonstrating sensitive data tagging and column-level masking policies.",
+      "expectedClassifications": {
+        "identifiers": [
+          "BANK_ACCOUNT",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "POSTAL_CODE",
+          "CITY"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "PCI-DSS",
+        "SOX",
+        "GLBA"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Financial Services & Insurance - SAMPLE",
+    "globalName": "GZT0ZLVIV7S",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZLVIV7S",
+    "category": "financial",
+    "subcategory": "Financial Services",
+    "governanceRelevance": {
+      "summary": "Financial data with account/transaction fields ideal for demonstrating sensitive data tagging and column-level masking policies.",
+      "expectedClassifications": {
+        "identifiers": [
+          "BANK_ACCOUNT",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "POSTAL_CODE",
+          "CITY"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "PCI-DSS",
+        "SOX",
+        "GLBA"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Home Equity and Mortgages (Demo/Sample)",
+    "globalName": "GZT0ZOSU8W6",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZOSU8W6",
+    "category": "financial",
+    "subcategory": "Mortgage",
+    "governanceRelevance": {
+      "summary": "Financial data with account/transaction fields ideal for demonstrating sensitive data tagging and column-level masking policies.",
+      "expectedClassifications": {
+        "identifiers": [
+          "BANK_ACCOUNT",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "POSTAL_CODE",
+          "CITY"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "PCI-DSS",
+        "SOX",
+        "GLBA"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "IBISWorld Industry Data (Market Estimates and Forecasts, Financial Benchmarks, Risk Ratings, etc.)",
+    "globalName": "GZSTZLT2IIE",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSTZLT2IIE",
+    "category": "financial",
+    "subcategory": "Financial Services",
+    "governanceRelevance": {
+      "summary": "Financial data with account/transaction fields ideal for demonstrating sensitive data tagging and column-level masking policies.",
+      "expectedClassifications": {
+        "identifiers": [
+          "BANK_ACCOUNT",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "POSTAL_CODE",
+          "CITY"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "PCI-DSS",
+        "SOX",
+        "GLBA"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Loan Model",
+    "globalName": "GZU6Z68Y10N",
+    "url": "https://app.snowflake.com/marketplace/listing/GZU6Z68Y10N",
+    "category": "financial",
+    "subcategory": "Lending",
+    "governanceRelevance": {
+      "summary": "Financial data with account/transaction fields ideal for demonstrating sensitive data tagging and column-level masking policies.",
+      "expectedClassifications": {
+        "identifiers": [
+          "BANK_ACCOUNT",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "POSTAL_CODE",
+          "CITY"
+        ],
+        "sensitiveInfo": [
+          "SALARY"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "PCI-DSS",
+        "SOX",
+        "GLBA"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "B2B - Healthcare Professional Audiences",
+    "globalName": "GZTSZCI0HHA",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZCI0HHA",
+    "category": "healthcare",
+    "subcategory": "Healthcare",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "California COVID-19 Datasets",
+    "globalName": "GZ1MBZFTF1",
+    "url": "https://app.snowflake.com/marketplace/listing/GZ1MBZFTF1",
+    "category": "healthcare",
+    "subcategory": "COVID-19",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Global Covid Strategies",
+    "globalName": "GZTYZAPS3FX",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTYZAPS3FX",
+    "category": "healthcare",
+    "subcategory": "COVID-19",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Health & Beauty - SAMPLE",
+    "globalName": "GZT0ZLVIV78",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZLVIV78",
+    "category": "healthcare",
+    "subcategory": "Health Data",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Hospital Chargemaster Data",
+    "globalName": "GZ1MJZ4HFKM",
+    "url": "https://app.snowflake.com/marketplace/listing/GZ1MJZ4HFKM",
+    "category": "healthcare",
+    "subcategory": "Hospital Data",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "New York Hospital Price Transparency Directory",
+    "globalName": "GZTSZ25YL1V",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ25YL1V",
+    "category": "healthcare",
+    "subcategory": "Hospital Data",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Population Health",
+    "globalName": "GZTSZ1Q961B",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ1Q961B",
+    "category": "healthcare",
+    "subcategory": "Health Data",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Population Health: Cortex AI-Ready Edition",
+    "globalName": "GZTSZ1Q962K",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ1Q962K",
+    "category": "healthcare",
+    "subcategory": "Health Data",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Price Transparency: Behavioral Health and ABA for UHC Optum Pennsylvania",
+    "globalName": "GZTSZ1XEOI",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ1XEOI",
+    "category": "healthcare",
+    "subcategory": "Health Data",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Price Transparency: Top 25 Inpatient DRGs in Aetna Texas",
+    "globalName": "GZTSZ1XEOQ",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ1XEOQ",
+    "category": "healthcare",
+    "subcategory": "Clinical Data",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Provider Data Solutions",
+    "globalName": "GZ2FQZMMAD3",
+    "url": "https://app.snowflake.com/marketplace/listing/GZ2FQZMMAD3",
+    "category": "healthcare",
+    "subcategory": "Provider Data",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Provider Intelligence",
+    "globalName": "GZT0ZEE3W1W",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZEE3W1W",
+    "category": "healthcare",
+    "subcategory": "Provider Data",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "Top Hospital Inpatient DRGs in NY, NJ, PA | Price Transparency Data Sample",
+    "globalName": "GZTSZ7R2REIV7",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ7R2REIV7",
+    "category": "healthcare",
+    "subcategory": "Clinical Data",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "United Healthcare - Payer Pricing Transparency",
+    "globalName": "GZTSZUEI44Q",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZUEI44Q",
+    "category": "healthcare",
+    "subcategory": "Healthcare",
+    "governanceRelevance": {
+      "summary": "Healthcare records with clinical/billing fields for demonstrating HIPAA-related classification, masking, and access governance.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "NATIONAL_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "DATE_OF_BIRTH",
+          "GENDER"
+        ],
+        "sensitiveInfo": [
+          "MEDICAL_DATA",
+          "MEDICAL_CONDITION",
+          "MEDICINE_NAME"
+        ]
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "HIPAA",
+        "HITECH"
+      ]
+    },
+    "difficulty": "intermediate",
+    "recommended": false
+  },
+  {
+    "title": "B2bConnect\u2122 - Business Firmographics (Demo/Sample)",
+    "globalName": "GZT0ZOSU8TV",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZOSU8TV",
+    "category": "other",
+    "subcategory": "Business Data",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "Business Data",
+    "globalName": "GZSTZK37HYH",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSTZK37HYH",
+    "category": "other",
+    "subcategory": "Business Data",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "Canadian Government Tenders \u2014 Federal (CanadaBuys) + Qu\u00e9bec (SEAO)",
+    "globalName": "GZ2FQZ1O9RH8",
+    "url": "https://app.snowflake.com/marketplace/listing/GZ2FQZ1O9RH8",
+    "category": "other",
+    "subcategory": "Government",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "Developed Markets Bond Data: Government & Corporate Bonds, Corporate Actions & Evaluated Prices",
+    "globalName": "GZ2FSZHUTUI",
+    "url": "https://app.snowflake.com/marketplace/listing/GZ2FSZHUTUI",
+    "category": "other",
+    "subcategory": "Government",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "Economic Indicators For Short Term Business Statistics",
+    "globalName": "GZSTZ45DPJ51F",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSTZ45DPJ51F",
+    "category": "other",
+    "subcategory": "Business Data",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "Global Government Contracts Data",
+    "globalName": "GZU6Z5NIRPQ",
+    "url": "https://app.snowflake.com/marketplace/listing/GZU6Z5NIRPQ",
+    "category": "other",
+    "subcategory": "Government",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "IDI - Business Data Insights",
+    "globalName": "GZU6ZNX1W36",
+    "url": "https://app.snowflake.com/marketplace/listing/GZU6ZNX1W36",
+    "category": "other",
+    "subcategory": "Business Data",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "IDI - Property Data Insights",
+    "globalName": "GZU6ZNX1W3A",
+    "url": "https://app.snowflake.com/marketplace/listing/GZU6ZNX1W3A",
+    "category": "other",
+    "subcategory": "Property",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "K-12 School and District Data, Rankings, and Grades",
+    "globalName": "GZT1ZE5GJ6",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT1ZE5GJ6",
+    "category": "other",
+    "subcategory": "Education",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "MLS Listings Data | U.S. Real Estate Property Transactions | All Property Classes",
+    "globalName": "GZTSZ46TIKP",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ46TIKP",
+    "category": "other",
+    "subcategory": "Real Estate",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "Monthly Sales & Business Activity Data (Sample)",
+    "globalName": "GZT2Z5Y17F",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT2Z5Y17F",
+    "category": "other",
+    "subcategory": "Business Data",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "Premium Residential |  MLS Property Listing Data | USA Real Estate Transaction Data",
+    "globalName": "GZTSZ46TIKL",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ46TIKL",
+    "category": "other",
+    "subcategory": "Real Estate",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "Public-Filing Corpus Measurements: XBRL, Ownership, Fund Holdings",
+    "globalName": "GZT1Z10ILO8QD",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT1Z10ILO8QD",
+    "category": "other",
+    "subcategory": "Public Filings",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "Real Property Insights (Demo/Sample) ",
+    "globalName": "GZT0ZOSU8V9",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZOSU8V9",
+    "category": "other",
+    "subcategory": "Property",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "Recorder & Deed Property Data",
+    "globalName": "GZU6Z68Y0YM",
+    "url": "https://app.snowflake.com/marketplace/listing/GZU6Z68Y0YM",
+    "category": "other",
+    "subcategory": "Property",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "Sales and Inventory Data for Retail Business Intelligence",
+    "globalName": "GZSOZ8SOC",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSOZ8SOC",
+    "category": "other",
+    "subcategory": "Business Data",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "South Korean Company Profiles Dataset",
+    "globalName": "GZTHZ8CBUF",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTHZ8CBUF",
+    "category": "other",
+    "subcategory": "Business Data",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "US Business Registry Data | 8M+ Entities from 10 State SOS Portals | Daily Refresh",
+    "globalName": "GZT1Z4FXSQK",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT1Z4FXSQK",
+    "category": "other",
+    "subcategory": "Business Data",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": "US National Real Estate, Property & Assessment Data",
+    "globalName": "GZTSZ10D0806",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ10D0806",
+    "category": "other",
+    "subcategory": "Real Estate",
+    "governanceRelevance": {
+      "summary": "Business/government data with organizational identifiers useful for demonstrating object tagging and governance metadata workflows.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "ORGANIZATION_IDENTIFIER"
+        ],
+        "quasiIdentifiers": [
+          "COUNTRY",
+          "ADMINISTRATIVE_AREA_1",
+          "CITY"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "SOX",
+        "GDPR"
+      ]
+    },
+    "difficulty": "advanced",
+    "recommended": false
+  },
+  {
+    "title": " SMS CustomerConnect 360 (sample)",
+    "globalName": "GZT0ZU1ICEX",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZU1ICEX",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "A demo of the Identity Graph and Data Onboarding by Roqad",
+    "globalName": "GZSYZKXCAB",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSYZKXCAB",
+    "category": "pii",
+    "subcategory": "Identity Graph",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "B2B - Contact ",
+    "globalName": "GZ2FQZ625OB",
+    "url": "https://app.snowflake.com/marketplace/listing/GZ2FQZ625OB",
+    "category": "pii",
+    "subcategory": "Contact Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Banking & Payments: Consumer Payments Behavior and Satisfaction",
+    "globalName": "GZTSZ45E346",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ45E346",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Consumer Data",
+    "globalName": "GZSTZK37HYX",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSTZK37HYX",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Consumer Insights Database: Health and Beauty",
+    "globalName": "GZSTZ708I12",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSTZ708I12",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Consumer Master - Auto ",
+    "globalName": "GZ2FQZ625O3",
+    "url": "https://app.snowflake.com/marketplace/listing/GZ2FQZ625O3",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Consumer Master - Buyer Intent Data",
+    "globalName": "GZ2FQZ625O7",
+    "url": "https://app.snowflake.com/marketplace/listing/GZ2FQZ625O7",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Consumer Master - Financial Data",
+    "globalName": "GZ2FQZ625NU",
+    "url": "https://app.snowflake.com/marketplace/listing/GZ2FQZ625NU",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Consumer Master - Personal Demographics ",
+    "globalName": "GZ2FQZ625NQ",
+    "url": "https://app.snowflake.com/marketplace/listing/GZ2FQZ625NQ",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Credit Identity Elements\u2122",
+    "globalName": "GZT0Z56K494D6",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0Z56K494D6",
+    "category": "pii",
+    "subcategory": "Identity Graph",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Digital Payments Personas",
+    "globalName": "GZT0ZIX6LBX",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZIX6LBX",
+    "category": "pii",
+    "subcategory": "Persona Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Email Invalidation",
+    "globalName": "GZSTZKIS6Y6",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSTZKIS6Y6",
+    "category": "pii",
+    "subcategory": "Contact Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Farmers and Ranchers Contacts",
+    "globalName": "GZTSZPFJXIE",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZPFJXIE",
+    "category": "pii",
+    "subcategory": "Contact Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Fast Food Personas",
+    "globalName": "GZT0ZIX6LBP",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZIX6LBP",
+    "category": "pii",
+    "subcategory": "Persona Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "IDI - Consumer Data Insights",
+    "globalName": "GZU6ZNX1W3Q",
+    "url": "https://app.snowflake.com/marketplace/listing/GZU6ZNX1W3Q",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Identity Graph",
+    "globalName": "GZSOZ5Q3WDW",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSOZ5Q3WDW",
+    "category": "pii",
+    "subcategory": "Identity Graph",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "L2/HaystaqDNA U.S. Consumers Predictive Analytics Models.",
+    "globalName": "GZSNZ1HHL8RC",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSNZ1HHL8RC",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "MarketSignalsTM National Consumer File",
+    "globalName": "GZTYZ62JF08",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTYZ62JF08",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Marketing Identity Elements for Auto\u2122",
+    "globalName": "GZT0Z56K494CP",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0Z56K494CP",
+    "category": "pii",
+    "subcategory": "Identity Graph",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Marketing Identity Elements\u2122",
+    "globalName": "GZT0Z56K494DA",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0Z56K494DA",
+    "category": "pii",
+    "subcategory": "Identity Graph",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "OMNA Identity Graph",
+    "globalName": "GZ2FQZ625OJ",
+    "url": "https://app.snowflake.com/marketplace/listing/GZ2FQZ625OJ",
+    "category": "pii",
+    "subcategory": "Identity Graph",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "People Detection (200 High-Res Images & Metadata)",
+    "globalName": "GZSOZ8FIUJ",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSOZ8FIUJ",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Rite Aid Pharmacy \u2013 Consumer Claims & Discount Trends",
+    "globalName": "GZTSZ45XA6W",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTSZ45XA6W",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "SMS Consumer Home Profiles (sample)",
+    "globalName": "GZT0ZU1ICET",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZU1ICET",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Sample Personas",
+    "globalName": "GZSOZ2EMQ",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSOZ2EMQ",
+    "category": "pii",
+    "subcategory": "Persona Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Sample Personas with ZIP11",
+    "globalName": "GZSOZ2EMM",
+    "url": "https://app.snowflake.com/marketplace/listing/GZSOZ2EMM",
+    "category": "pii",
+    "subcategory": "Persona Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Spending Data for Gen Z, Gen Alpha & Youth: 1.4M+ Consumers, 3K+ Brands",
+    "globalName": "GZTYZ41BVVA",
+    "url": "https://app.snowflake.com/marketplace/listing/GZTYZ41BVVA",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Statara Identity Insights",
+    "globalName": "GZT0Z11MN4NO",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0Z11MN4NO",
+    "category": "pii",
+    "subcategory": "Identity Graph",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "Streaming Services Personas",
+    "globalName": "GZT0ZIX6LBT",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT0ZIX6LBT",
+    "category": "pii",
+    "subcategory": "Persona Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "U.S. Consumer Data - Free Sample",
+    "globalName": "GZT1ZJ0SF8",
+    "url": "https://app.snowflake.com/marketplace/listing/GZT1ZJ0SF8",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  },
+  {
+    "title": "dv01 US Consumer Unsecured Benchmark",
+    "globalName": "GZ2FTZ8E8RT",
+    "url": "https://app.snowflake.com/marketplace/listing/GZ2FTZ8E8RT",
+    "category": "pii",
+    "subcategory": "Consumer Data",
+    "governanceRelevance": {
+      "summary": "Contains personal identifiers suitable for demonstrating PII classification, dynamic masking, and row-level access controls.",
+      "expectedClassifications": {
+        "identifiers": [
+          "NAME",
+          "EMAIL",
+          "PHONE_NUMBER",
+          "PAYMENT_CARD"
+        ],
+        "quasiIdentifiers": [
+          "AGE",
+          "GENDER",
+          "DATE_OF_BIRTH",
+          "POSTAL_CODE"
+        ],
+        "sensitiveInfo": []
+      },
+      "recommendedPolicies": [
+        "masking",
+        "row_access",
+        "tagging"
+      ],
+      "complianceFrameworks": [
+        "GDPR",
+        "CCPA",
+        "PIPEDA"
+      ]
+    },
+    "difficulty": "beginner",
+    "recommended": false
+  }
+]
